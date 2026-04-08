@@ -1,9 +1,9 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  title: 'Dev Notes',
+  tagline: 'Salvando meus estudos em um blog',
+  favicon: 'img/my-logo.svg',
   future: {
     v4: true,
   },
@@ -50,10 +50,10 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'My Site',
+        title: 'Home',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/my-logo.svg',
         },
         items: [
           {
