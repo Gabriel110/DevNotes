@@ -1,0 +1,162 @@
+:root {
+    /* Primary Soft Blue */
+    --ifm-color-primary: #6366f1;
+    --ifm-color-primary-dark: #5458e6;
+    --ifm-color-primary-darker: #4f52d9;
+    --ifm-color-primary-darkest: #3c3fb0;
+    --ifm-color-primary-light: #7c7ef5;
+    --ifm-color-primary-lighter: #8b8df7;
+    --ifm-color-primary-lightest: #b3b5fb;
+
+    /* Background Soft */
+    --ifm-background-color: #0f1117;
+    --ifm-background-surface-color: #151822;
+
+    /* Text */
+    --ifm-font-color-base: #d6d9e0;
+    --ifm-heading-color: #ffffff;
+
+    /* Borders */
+    --ifm-border-color: #252a36;
+
+    /* Code */
+    --ifm-code-background: #151822;
+    --ifm-code-color: #9cdcfe;
+
+    /* Navbar */
+    --ifm-navbar-background-color: #0f1117;
+
+    /* Footer */
+    --ifm-footer-background-color: #0f1117;
+
+    /* Font */
+    --ifm-font-family-base: Inter, system-ui, -apple-system, sans-serif;
+
+    /* Radius */
+    --ifm-global-radius: 10px;
+}
+
+/* Navbar */
+.navbar {
+    border-bottom: 1px solid #252a36;
+    backdrop-filter: blur(8px);
+}
+
+/* Sidebar */
+.theme-doc-sidebar-container {
+    background: #0f1117;
+    border-right: 1px solid #252a36;
+}
+
+/* Sidebar Active */
+.menu__link--active {
+    background: #1a1f2e;
+    border-left: 3px solid #6366f1;
+}
+
+/* Links */
+a {
+    color: #818cf8;
+}
+
+a:hover {
+    color: #a5b4fc;
+}
+
+/* Buttons */
+.button {
+    background: #6366f1;
+    border: none;
+    color: white;
+    border-radius: 8px;
+}
+
+.button:hover {
+    background: #5458e6;
+}
+
+/* Cards */
+.card {
+    background: #151822;
+    border: 1px solid #252a36;
+    transition: 0.2s ease;
+}
+
+.card:hover {
+    border: 1px solid #6366f1;
+    transform: translateY(-2px);
+}
+
+/* Code blocks */
+.theme-code-block {
+    border: 1px solid #252a36;
+    border-radius: 8px;
+}
+
+/* Tables */
+table {
+    border: 1px solid #252a36;
+}
+
+th {
+    background: #151822;
+}
+
+/* Hero */
+.hero {
+    background: linear-gradient(
+            135deg,
+            #0f1117,
+            #151822,
+            #1a1f2e
+    );
+}
+
+/* Search */
+.navbar__search-input {
+    background: #151822;
+    border: 1px solid #252a36;
+    color: #d6d9e0;
+}
+
+/* Footer */
+.footer {
+    border-top: 1px solid #252a36;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0f1117;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #252a36;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #6366f1;
+}
+
+/* Headings */
+h1, h2, h3 {
+    font-weight: 600;
+    letter-spacing: -0.02em;
+}
+
+/* Inline code */
+code {
+    background: #151822;
+    border: 1px solid #252a36;
+    padding: 3px 6px;
+    border-radius: 6px;
+}
+
+/* Smooth transitions */
+* {
+    transition: background 0.2s ease, border 0.2s ease;
+}
