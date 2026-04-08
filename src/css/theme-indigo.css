@@ -1,0 +1,12 @@
+:root{
+    --ifm-color-primary:#4338ca;--ifm-color-primary-dark:#3730a3;--ifm-color-primary-darker:#312e81;--ifm-color-primary-darkest:#1e1b4b;--ifm-color-primary-light:#4f46e5;--ifm-color-primary-lighter:#6366f1;--ifm-color-primary-lightest:#818cf8;
+    --ifm-link-color:var(--ifm-color-primary);--ifm-link-hover-color:var(--ifm-color-primary-dark);
+    --ifm-button-background-color:var(--ifm-color-primary);--ifm-button-hover-background-color:var(--ifm-color-primary-dark);
+    --docusaurus-highlighted-code-line-bg:rgba(67,56,202,.08)
+}
+[data-theme='dark']{
+    --ifm-color-primary:#6366f1;--ifm-color-primary-dark:#4f46e5;--ifm-color-primary-darker:#4338ca;--ifm-color-primary-darkest:#3730a3;--ifm-color-primary-light:#818cf8;--ifm-color-primary-lighter:#a5b4fc;--ifm-color-primary-lightest:#c7d2fe;
+    --ifm-link-color:var(--ifm-color-primary);--ifm-link-hover-color:var(--ifm-color-primary-dark);
+    --ifm-button-background-color:var(--ifm-color-primary);--ifm-button-hover-background-color:var(--ifm-color-primary-dark);
+    --docusaurus-highlighted-code-line-bg:rgba(99,102,241,.16)
+}

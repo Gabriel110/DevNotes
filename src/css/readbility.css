@@ -1,0 +1,28 @@
+/* Typography + layout tuning for blog reading */
+:root {
+    --ifm-font-size-base: 17px;
+    --ifm-line-height-base: 1.7;
+    --ifm-heading-font-weight: 700;
+    --ifm-heading-line-height: 1.25;
+    --ifm-container-width: 1024px;
+    --ifm-container-width-xl: 1100px;
+    --ifm-code-font-size: 92%;
+    --ifm-font-family-base: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+    --ifm-font-family-monospace: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+.markdown{max-width:72ch;margin-inline:auto}
+.markdown p{margin:.9em 0 1.1em}
+.markdown ul,.markdown ol{padding-left:1.4rem;margin:.6em 0 1.2em}
+.markdown li+li{margin-top:.35em}
+.markdown a{text-decoration-thickness:.1em;text-underline-offset:.15em}
+.markdown img{display:block;margin:1.25rem auto;border-radius:8px}
+.markdown figure{margin:1.5rem auto;text-align:center}
+.markdown figcaption{margin-top:.5rem;font-size:.9em;opacity:.8}
+.markdown blockquote{border-left:4px solid color-mix(in srgb,var(--ifm-color-primary) 35%,#bbb);background:color-mix(in srgb,var(--ifm-color-primary) 6%,transparent);padding:.6rem 1rem}
+.markdown code{white-space:break-spaces}
+.theme-code-block,pre code{overflow:auto}
+.theme-code-block{background:color-mix(in srgb,#000 6%,transparent);border:1px solid color-mix(in srgb,#000 10%,transparent)}
+.markdown table{display:block;overflow-x:auto;border-collapse:collapse}
+.markdown tr:nth-child(even) td{background:color-mix(in srgb,#000 3%,transparent)}
+[data-theme='dark'] .markdown blockquote{border-left-color:color-mix(in srgb,var(--ifm-color-primary) 55%,#666);background:color-mix(in srgb,var(--ifm-color-primary) 10%,transparent)}
+[data-theme='dark'] .theme-code-block{background:color-mix(in srgb,#fff 4%,transparent);border-color:color-mix(in srgb,#fff 10%,transparent)}

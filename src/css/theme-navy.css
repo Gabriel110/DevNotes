@@ -1,0 +1,12 @@
+:root{
+    --ifm-color-primary:#0a3d62;--ifm-color-primary-dark:#062b44;--ifm-color-primary-darker:#041e30;--ifm-color-primary-darkest:#02121d;--ifm-color-primary-light:#144d78;--ifm-color-primary-lighter:#1e5c8f;--ifm-color-primary-lightest:#2a6ea8;
+    --ifm-link-color:var(--ifm-color-primary);--ifm-link-hover-color:var(--ifm-color-primary-light);
+    --ifm-button-background-color:var(--ifm-color-primary);--ifm-button-hover-background-color:var(--ifm-color-primary-dark);
+    --docusaurus-highlighted-code-line-bg:rgba(10,61,98,.08)
+}
+[data-theme='dark']{
+    --ifm-color-primary:#2a6ea8;--ifm-color-primary-dark:#1e5c8f;--ifm-color-primary-darker:#144d78;--ifm-color-primary-darkest:#0a3d62;--ifm-color-primary-light:#4f8fc7;--ifm-color-primary-lighter:#6aa5d9;--ifm-color-primary-lightest:#93c5fd;
+    --ifm-link-color:var(--ifm-color-primary);--ifm-link-hover-color:var(--ifm-color-primary-dark);
+    --ifm-button-background-color:var(--ifm-color-primary);--ifm-button-hover-background-color:var(--ifm-color-primary-dark);
+    --docusaurus-highlighted-code-line-bg:rgba(42,110,168,.16)
+}
